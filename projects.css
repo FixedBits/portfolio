@@ -44,6 +44,13 @@ body {
     overflow: auto;
     padding-left: 15px;
     padding-right: 15px;
+    flex: 1;
+    /* Add spacing around the content */
+    padding: 40px;/
+    /* Adjust the gap between cards */
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -53,10 +60,35 @@ p {
 
 .download-link {
     text-align: center;
-    padding-left: 550px;
+    padding-left: 760px;
     font-size: 18px;
 }
 
 .resume-text p {
     color: black;
+    width: 80%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    /* Center the cards horizontally */
+}
+
+
+
+.card img {
+    width: 100%;
+    /* Set a fixed width */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.card-content-resume {
+    text-wrap: 20px;
+    max-width: 110%;
+}
+
+.assign-content-resume {
+    max-width: 80%;
 }

@@ -7,7 +7,10 @@ body {
 #banner {
     margin: -1% 0 0;
     padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 2px;
     height: 100px;
     /* primary color */
     background-color: #C79300;
@@ -18,7 +21,8 @@ body {
 
 #nav-container {
     margin: -16px 0 0 0;
-    padding: 20px;
+    padding: 10px;
+    padding-bottom: 30px;
     height: 30px;
     list-style-type: none;
     border-bottom: 1px solid #bbbbbb;
@@ -33,7 +37,6 @@ body {
     padding: 0;
     width: auto;
     display: block;
-
 }
 
 #nav-list li a {
@@ -41,7 +44,7 @@ body {
     text-decoration: none;
     padding: 0 50px;
     display: block;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #nav-list li a:hover {
@@ -61,15 +64,16 @@ body {
 #footer {
     font-size: 1em;
     text-align: center;
-    height: 50px;
+    height: 8px;
     border-top: 1px solid #F5B400;
-    padding: 15px 0 15px 0;
+    padding: 8px 0 35px 0;
     font-style: italic;
     background-color: #C79300;
     color: #fff;
     position: fixed;
     bottom: 0;
     width: 100%;
+
 }
 
 #footer a:link {
@@ -86,16 +90,18 @@ body {
     background-color: #F5B400;
 }
 
-/**
-    Non-themed global styles.
- */
+#footer a {
+    margin: 23px;
+}
+
 .assign-container {
     padding: 10px;
 }
 
 .assign-content {
-    width: 600px;
-    margin: 3% auto 0;
+    width: 820px;
+    margin: 2% auto 0%;
+
 }
 
 .assign-results-text {
@@ -194,7 +200,7 @@ body {
     width: 100%;
 }
 
-.body-paragraphs{
+.body-paragraphs {
     font-size: 28px;
     text-align: center;
     margin: 50px 50px;
@@ -202,6 +208,6 @@ body {
     padding-right: 80px;
 }
 
-h1{
+h1 {
     font-size: 40px;
 }
