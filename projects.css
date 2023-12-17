@@ -21,7 +21,7 @@ body {
 
 .card-title {
     color: #917A3A;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .bucket-list {
@@ -46,12 +46,12 @@ body {
     padding-right: 15px;
     flex: 1;
     /* Add spacing around the content */
-    padding: 40px;/
+    padding: 20px;/
     /* Adjust the gap between cards */
     overflow-x: hidden;
     align-items: center;
     justify-content: center;
-
+    font-size: 19px;
 }
 
 p {
@@ -92,3 +92,4 @@ p {
 .assign-content-resume {
     max-width: 80%;
 }
+
