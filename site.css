@@ -112,16 +112,6 @@ body {
     color: inherit;
     background-color: inherit;
 }
-
-.return-home:hover {
-    background-color: #D6A800;
-    color: #4F3674;
-}
-
-.return-home:visited {
-    color: #3c275a;
-}
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(50, 50, 50, 0.3);
     transition: 0.3s;
