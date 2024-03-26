@@ -31,7 +31,7 @@ class Header extends HTMLElement
                         <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="/web-430/soto-tech-value-stream.html">DevOps Presentations</a>
+                        <a href="web-430/soto-tech-value-stream.html">DevOps Presentations</a>
                     </li>
                 </ul>
             </div>
