@@ -100,9 +100,29 @@ body {
 }
 
 .assign-content {
-    width: 820px;
+    width: 80%;
+    margin: 2% auto 0%;
+}
+
+.assign-content-general {
+    width: 40%;
     margin: 2% auto 0%;
 
+}
+.assign-content-resume {
+    width: 48%;
+    margin: 2% auto 0%;
+
+}
+.assign-content-aboutme {
+    width: 60%;
+    margin: 2% auto 0%;
+
+}
+
+.assign-content-devops {
+    width: 80%;
+    margin: 2% auto 0%;
 }
 
 .app-header {
@@ -125,7 +145,7 @@ body {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(173, 131, 5, 0.5);
+    box-shadow: 0 8px 16px 0 rgba(249, 124, 29, 0.4);
 }
 
 .btn {

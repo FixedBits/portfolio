@@ -2,8 +2,16 @@
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
-
 }
+
+#projects-container-devops {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+
 
 
 .assign-container {
@@ -45,8 +53,6 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     flex: 1;
-    /* Add spacing around the content */
-    padding: 20px;/
     /* Adjust the gap between cards */
     overflow-x: hidden;
     align-items: center;
@@ -56,6 +62,7 @@ body {
 
 p {
     color: #917A3A;
+   
 }
 
 .download-link {
@@ -84,12 +91,4 @@ p {
     /* Maintain aspect ratio */
 }
 
-.card-content-resume {
-    text-wrap: 20px;
-    max-width: 110%;
-}
-
-.assign-content-resume {
-    max-width: 80%;
-}
 
