@@ -4,7 +4,7 @@
     grid-gap: 20px;
 }
 
-#projects-container-devops {
+#projects-container-devops-index {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
@@ -12,14 +12,30 @@
     align-items: center;
 }
 
+#projects-container-devops {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    width: 100%;
+    align-items: center;
+}
 
+.assign-content-devops {
+    width: 84%;
+    margin: 1.5% auto;
+
+}
+
+.devops-videodiv {
+    text-align-last: center;
+}
 
 .assign-container {
     padding-bottom: 50px;
 }
 
 body {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 
 }
 
@@ -62,7 +78,7 @@ body {
 
 p {
     color: #917A3A;
-   
+
 }
 
 .download-link {
@@ -102,6 +118,7 @@ p {
     font-family: inherit;
     margin: 0;
 }
+
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
     display: none;

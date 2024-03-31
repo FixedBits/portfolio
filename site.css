@@ -120,11 +120,6 @@ body {
 
 }
 
-.assign-content-devops {
-    width: 80%;
-    margin: 2% auto 0%;
-}
-
 .app-header {
     text-align: center;
     font-weight: 400;
@@ -213,3 +208,4 @@ body {
 h1 {
     font-size: 40px;
 }
+
