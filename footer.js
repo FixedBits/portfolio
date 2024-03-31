@@ -1,11 +1,10 @@
-class Footer extends HTMLElement
-{
-    constructor() {
-        super();
-    }
+class Footer extends HTMLElement {
+  constructor() {
+    super();
+  }
 
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
             <div id="footer">
                 <p>
                     Copyright © 2023 <a href="https://www.bellevue.edu/">Bellevue University</a> | 
@@ -16,7 +15,7 @@ class Footer extends HTMLElement
                 </p>
             </div>
         `;
-    }
+  }
 }
 
 customElements.define("footer-component", Footer);

@@ -7,136 +7,152 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Victor's Portfolio</title>
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Victor's Portfolio</title>
+    <!-- Stylesheet references -->
+    <link rel="stylesheet" href="site.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- Stylesheet references -->
-        <link rel="stylesheet" href="site.css">
-        <link rel="stylesheet" href="projects.css">
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- JavaScript references -->
+    <script src="header.js"></script>
+    <script src="footer.js"></script>
+  </head>
 
-        <!-- JavaScript references -->
-        <script src="header.js"></script>
-        <script src="footer.js"></script>
+  <body>
+    <header-component></header-component>
 
-    </head>
+    <div class="assign-container">
+      <h1 class="app-header">Database Diagrams</h1>
+      <div class="assign-content">
+        <div class="card-content" id="projects-container">
+          <div class="card">
+            <div class="card-title">
+              <p>NodeShopper</p>
+            </div>
+            <div class="card-content" style="text-align: center">
+              <a href=".\images\nodeshopper.png" target="_blank">
+                <img
+                  src=".\images\nodeshopper.png"
+                  alt="An ORD representing business rules"
+                />
+              </a>
+              <br />
+              <div style="font-size: 18.5px; text-align: left">
+                Business Rules:<br />
+                1. a customer can have many invoice(s)<br />
+                2. many invoice(s) are assigned to a customer<br />
+                3. an invoice can have many lineitem(s)<br />
+                4. many lineitems are added to an invoice
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <p>NodeTech</p>
+            </div>
+            <div class="card-content" style="text-align: center">
+              <a href=".\images\nodetech.png" target="_blank">
+                <img
+                  src=".\images\nodetech.png"
+                  alt="An ORD representing business rules"
+                />
+              </a>
+              <br />
+              <div style="font-size: 18.5px; text-align: left">
+                Business Rules:<br />
+                1. a student has many enrollment(s)<br />
+                2. an enrollment has many course(s)<br />
+                3. a student enroll(s) in many course(s)
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <p>NodeSecurity</p>
+            </div>
+            <div class="card-content" style="text-align: center">
+              <a href=".\images\nodesecurity-ord.png" target="_blank">
+                <img
+                  src=".\images\nodesecurity-ord.png"
+                  alt="An ORD representing business rules"
+                />
+              </a>
+              <br />
+              <div style="font-size: 18.5px; text-align: left">
+                Business Rules:<br />
+                1. a user can have one or more assigned role(s)<br />
+                2. a role is associated with many permission(s)
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <p>NodeSecurity</p>
+            </div>
+            <div class="card-content" style="text-align: center">
+              <a href=".\images\nodebook-co-ord.png" target="_blank">
+                <img
+                  src=".\images\nodebook-co-ord.png"
+                  alt="An ORD representing business rules"
+                />
+              </a>
+              <br />
+              <div style="font-size: 18.5px; text-align: left">
+                Business Rules:<br />
+                1. a publisher can have one or many book(s)<br />
+                2. an author can have one or many book(s)
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <p>WhatABook</p>
+            </div>
+            <div class="card-content" style="text-align: center">
+              <a href=".\images\whatabook-ORD.PNG" target="_blank">
+                <img
+                  src=".\images\whatabook-ORD.PNG"
+                  alt="An ORD representing business rules"
+                />
+              </a>
+              <br />
+              <div style="font-size: 18.5px; text-align: left">
+                Business Rules:<br />
+                1. whatabook has many book(s)<br />
+                2. a customer can add many book(s) to their wishlist<br />
+                3. a customer can have many wishlist book(s)<br />
+                4. whatabook has many customer(s)
+              </div>
+            </div>
+          </div>
 
-    <body>
-        <header-component></header-component>
+          <div class="card">
+            <div class="card-title">
+              <p>Capstone</p>
+            </div>
+            <div class="card-content" style="text-align: center">
+              <a href=".\images\capstone-team-api.png" target="_blank">
+                <img
+                  src=".\images\capstone-team-api.png"
+                  alt="An ORD representing business rules"
+                />
+              </a>
+              <br />
+              <div style="font-size: 18.5px; text-align: left">
+                Business Rules:<br />
+                1. a team can have many players <br />
+                2. a team can have one mascot
+              </div>
+            </div>
+          </div>
 
-        <div class="assign-container">
-            <h1 class="app-header">Database Diagrams</h1>
-            <div class="assign-content">
-                    <div class="card-content" id="projects-container">
-                        <div class="card">
-                            <div class="card-title">
-                                <p>NodeShopper</p>
-                            </div>
-                            <div class="card-content" style="text-align:center;">
-                                <a href=".\images\nodeshopper.png" target="_blank">
-                                    <img src=".\images\nodeshopper.png" alt="An ORD representing business rules">
-                                </a>
-                                <br />
-                                <div style="font-size: 18.5px; text-align: left;">
-                                    Business Rules:<br />
-                                    1. a customer can have many invoice(s)<br />
-                                    2. many invoice(s) are assigned to a customer<br />
-                                    3. an invoice can have many lineitem(s)<br />
-                                    4. many lineitems are added to an invoice
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-title">
-                                <p>NodeTech</p>
-                            </div>
-                            <div class="card-content" style="text-align:center;">
-                                <a href=".\images\nodetech.png" target="_blank">
-                                    <img src=".\images\nodetech.png" alt="An ORD representing business rules">
-                                </a>
-                                <br />
-                                <div style="font-size: 18.5px; text-align: left;">
-                                    Business Rules:<br />
-                                    1. a student has many enrollment(s)<br />
-                                    2. an enrollment has many course(s)<br />
-                                    3. a student enroll(s) in many course(s)
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-title">
-                                <p>NodeSecurity</p>
-                            </div>
-                            <div class="card-content" style="text-align:center;">
-                                <a href=".\images\nodesecurity-ord.png" target="_blank">
-                                    <img src=".\images\nodesecurity-ord.png" alt="An ORD representing business rules">
-                                </a>
-                                <br />
-                                <div style="font-size: 18.5px; text-align: left;">
-                                    Business Rules:<br />
-                                    1. a user can have one or more assigned role(s)<br />
-                                    2. a role is associated with many permission(s)
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-title">
-                                <p>NodeSecurity</p>
-                            </div>
-                            <div class="card-content" style="text-align:center;">
-                                <a href=".\images\nodebook-co-ord.png" target="_blank">
-                                    <img src=".\images\nodebook-co-ord.png" alt="An ORD representing business rules">
-                                </a>
-                                <br />
-                                <div style="font-size: 18.5px; text-align: left;">
-                                    Business Rules:<br />
-                                    1. a publisher can have one or many book(s)<br />
-                                    2. an author can have one or many book(s)
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-title">
-                                <p>WhatABook</p>
-                            </div>
-                            <div class="card-content" style="text-align:center;">
-                                <a href=".\images\whatabook-ORD.PNG" target="_blank">
-                                    <img src=".\images\whatabook-ORD.PNG" alt="An ORD representing business rules">
-                                </a>
-                                <br />
-                                <div style="font-size: 18.5px; text-align: left;">
-                                    Business Rules:<br />
-                                    1. whatabook has many book(s)<br />
-                                    2. a customer can add many book(s) to their wishlist<br />
-                                    3. a customer can have many wishlist book(s)<br />
-                                    4. whatabook has many customer(s)
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-title">
-                                <p>Capstone</p>
-                            </div>
-                            <div class="card-content" style="text-align:center;">
-                                <a href=".\images\capstone-team-api.png" target="_blank">
-                                    <img src=".\images\capstone-team-api.png" alt="An ORD representing business rules">
-                                </a>
-                                <br />
-                                <div style="font-size: 18.5px; text-align: left;">
-                                    Business Rules:<br />
-                                    1. a team can have many players <br />
-                                    2. a team can have one mascot
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--
+          <!--
                             <div class="card">
                             <div class="card-title">
                                 <p>NodeSecurity</p>
@@ -155,10 +171,10 @@
                             </div>
                         </div>
                         -->
-                    </div>
-                </div>
-                <br />
-            </div>
-        <footer-component></footer-component>
-    </body>
+        </div>
+      </div>
+      <br />
+    </div>
+    <footer-component></footer-component>
+  </body>
 </html>

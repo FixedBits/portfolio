@@ -7,92 +7,112 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Victor's Portfolio</title>
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Victor's Portfolio</title>
+    <!-- Stylesheet references -->
+    <link rel="stylesheet" href="site.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- Stylesheet references -->
-        <link rel="stylesheet" href="site.css">
-        <link rel="stylesheet" href="projects.css">
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- JavaScript references -->
+    <script src="header.js"></script>
+    <script src="footer.js"></script>
+  </head>
 
-        <!-- JavaScript references -->
-        <script src="header.js"></script>
-        <script src="footer.js"></script>
+  <body>
+    <header-component></header-component>
 
-    </head>
+    <div class="assign-container">
+      <h1 class="app-header">School Projects</h1>
+      <div class="assign-content">
+        <div class="card-content" id="projects-container">
+          <div class="card">
+            <div class="card-title">WEB 231 Landing Page</div>
+            <div class="card-content">
+              <p>Landing page for the Enterprise JavaScript I course.</p>
+              <ul>
+                <li>
+                  <a href="https://fixedbits.github.io/web-231/" target="_blank"
+                    >Visit Page</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
 
-    <body>
-        <header-component></header-component>
+          <div class="card">
+            <div class="card-title">WEB 330 Landing Page</div>
+            <div class="card-content">
+              <p>Landing page for the Enterprise JavaScript II course.</p>
+              <ul>
+                <li>
+                  <a href="https://fixedbits.github.io/web-330/" target="_blank"
+                    >Visit Page</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="card-content">
+              <p>Pet's R Us Project</p>
+              <ul>
+                <li>
+                  <a href="https://soto-pets-r-us.onrender.com/" target="_blank"
+                    >Project link</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
 
-        <div class="assign-container">
-            <h1 class="app-header">School Projects</h1>
-            <div class="assign-content">
-                    <div class="card-content" id="projects-container">
-                        <div class="card">
-                            <div class="card-title">WEB 231 Landing Page</div>
-                            <div class="card-content">
-                                <p>Landing page for the Enterprise JavaScript I course.</p>
-                                <ul>
-                                    <li><a href="https://fixedbits.github.io/web-231/" target="_blank">Visit Page</a></li>
-                                </ul>
-                            </div>
-                        </div>
+          <div class="card">
+            <div class="card-title">WEB 420's Capstone Project</div>
+            <div class="card-content">
+              <p>RESTful APIs</p>
+              <ul>
+                <li>
+                  <a
+                    href="https://web420-apis.onrender.com/api-docs/"
+                    target="blank"
+                    >Project link</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">WEB 425 Projects</div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-                        <div class="card">
-                            <div class="card-title">WEB 330 Landing Page</div>
-                            <div class="card-content">
-                                <p>Landing page for the Enterprise JavaScript II course.</p>
-                                <ul>
-                                    <li><a href="https://fixedbits.github.io/web-330/" target="_blank">Visit Page</a></li>
-                                </ul>
-                            </div>
-                            <div class="card-content">
-                                <p>Pet's R Us Project</p>
-                                <ul>
-                                    <li><a href="https://soto-pets-r-us.onrender.com/" target="_blank">Project link</a></li>
-                                </ul>
-                            </div>
-                        </div>
+              <ul>
+                <li><a href="#" target="blank">Composer App</a></li>
+                <li><a href="#" target="blank">GPA Calculator App</a></li>
+                <li><a href="#" target="blank">In-N-Out-Books</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">WEB 450 Projects</div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-                        <div class="card">
-                            <div class="card-title">WEB 420's Capstone Project</div>
-                            <div class="card-content">
-                                <p>RESTful APIs</p>
-                                <ul>
-                                    <li><a href="https://web420-apis.onrender.com/api-docs/" target="blank">Project link</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-title">WEB 425 Projects</div>
-                            <div class="card-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-                                <ul>
-                                    <li><a href="#" target="blank">Composer App</a></li>
-                                    <li><a href="#" target="blank">GPA Calculator App</a></li>
-                                    <li><a href="#" target="blank">In-N-Out-Books</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-title">WEB 450 Projects</div>
-                            <div class="card-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-                                <ul>
-                                    <li><a href="#" target="blank">nodebucket</a></li>
-                                    <li><a href="#" target="blank">Bob's Computer Repair Shop</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br />
-            </div>     
-        <footer-component></footer-component>
-    </body>
-
+              <ul>
+                <li><a href="#" target="blank">nodebucket</a></li>
+                <li>
+                  <a href="#" target="blank">Bob's Computer Repair Shop</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+    <footer-component></footer-component>
+  </body>
 </html>

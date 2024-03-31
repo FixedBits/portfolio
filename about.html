@@ -1,44 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Victor's Portfolio</title>
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Victor's Portfolio</title>
+    <!-- Stylesheet references -->
+    <link rel="stylesheet" href="site.css" />
+    <link rel="stylesheet" href="projects.css" />
 
-        <!-- Stylesheet references -->
-        <link rel="stylesheet" href="site.css">
-        <link rel="stylesheet" href="projects.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- JavaScript references -->
+    <script src="header.js"></script>
+    <script src="footer.js"></script>
+  </head>
 
-        <!-- JavaScript references -->
-        <script src="header.js"></script>
-        <script src="footer.js"></script>
-    </head>
+  <body>
+    <header-component></header-component>
 
-    <body>
-        <header-component></header-component>
-
-        <div class="assign-container">
-            <h1 class="app-header">About Me</h1>
-            <div class="assign-content-aboutme">
-                <div class="row">
-                    <div class="card">
-                        <img src=".\images\image1.jpg" alt="UI/UX production tools" width="510" height="300">
-                        <p>
-                            As a passionate and dedicated UI/UX designer, I am committed to creating memorable user experiences. With a keen eye for design and a strong understanding of user behavior, I specialize in creating intuitive and engaging interfaces. My portfolio showcases my skills in various sectors, including hotels, airlines, factories, offices, stores, and online shopping platforms.
-                        </p>
-                    </div>
-                    <div class="card">
-                        <img src=".\images\image2.jpg" alt="UI/UX production tools" width="510" height="300">
-                        <p>
-                            In the competitive realm of UI/UX development, I understand the importance of standing out. I am proficient in design software and have experience creating prototypes, wireframes, user flows, and mockups. My strong communication skills and problem-solving abilities enable me to work effectively in any team environment.
-                        </p>
-                    </div>
-                </div>
-                                <br />             
-            </div>
+    <div class="assign-container">
+      <h1 class="app-header">About Me</h1>
+      <div class="assign-content-aboutme">
+        <div class="row">
+          <div class="card">
+            <img
+              src=".\images\image1.jpg"
+              alt="UI/UX production tools"
+              width="510"
+              height="300"
+            />
+            <p>
+              As a passionate and dedicated UI/UX designer, I am committed to
+              creating memorable user experiences. With a keen eye for design
+              and a strong understanding of user behavior, I specialize in
+              creating intuitive and engaging interfaces. My portfolio showcases
+              my skills in various sectors, including hotels, airlines,
+              factories, offices, stores, and online shopping platforms.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src=".\images\image2.jpg"
+              alt="UI/UX production tools"
+              width="510"
+              height="300"
+            />
+            <p>
+              In the competitive realm of UI/UX development, I understand the
+              importance of standing out. I am proficient in design software and
+              have experience creating prototypes, wireframes, user flows, and
+              mockups. My strong communication skills and problem-solving
+              abilities enable me to work effectively in any team environment.
+            </p>
+          </div>
         </div>
-        <footer-component></footer-component>        
-    </body>
+        <br />
+      </div>
+    </div>
+    <footer-component></footer-component>
+  </body>
 </html>
