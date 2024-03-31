@@ -29,14 +29,14 @@ class Header extends HTMLElement {
                     <li>
                         <a href="about.html">About</a>
                     </li>
-            <li class="dropdown">
-                <a href="web-430/devops-index.html" class="dropbtn">DevOps Presentations &#9662;</a>
-                <div class="dropdown-content">
-                    <a href="soto-tech-value-stream.html">Tech-Value-Stream</a>
-                    <a href="soto-two-pizza-rule.html">The Two-Pizza Team Rule</a>
-                    <a href="upcoming-presentation.html">Upcoming Presentation</a>
-                </div>
-            </li>
+                    <li class="dropdown">
+                    <a href="web-430/devops-index.html" class="dropbtn">DevOps Presentations &#9662;</a>
+                    <div class="dropdown-content">
+                    <a href="web-430/soto-tech-value-stream.html">Tech-Value-Stream</a>
+                    <a href="web-430/soto-two-pizza-rule.html">The Two-Pizza Team Rule</a>
+                    <a href="web-430/upcoming-presentation.html">Upcoming Presentation</a>
+                    </div>
+                    </li>
                 </ul>
             </div>
         `;
