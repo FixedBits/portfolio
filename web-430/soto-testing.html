@@ -1,0 +1,95 @@
+<!--
+============================================
+; Title:  upcoming-presentation.html
+; Author: Victor Soto
+; Date:   03/31/2024
+; Description: Presentation [EnterName]
+;===========================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Victor's Portfolio</title>
+
+    <!-- Stylesheet references -->
+    <link rel="stylesheet" href="..\site.css" />
+    <link rel="stylesheet" href="..\projects.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JavaScript references -->
+    <script src="..\footer.js"></script>
+  </head>
+  <div id="banner">
+    <h1>Victor's Portfolio</h1>
+  </div>
+
+  <!-- nav bar from header.js-->
+  <div id="nav-container">
+    <ul id="nav-list">
+      <li>
+        <a href="../index.html">Home</a>
+      </li>
+      <li>
+        <a href="../projects.html">Projects</a>
+      </li>
+      <li>
+        <a href="../database-diagrams.html">Database Diagrams</a>
+      </li>
+      <li>
+        <a href="../api-unit-tests.html">API Unit Tests</a>
+      </li>
+      <li>
+        <a href="../resume.html">Resume</a>
+      </li>
+      <li>
+        <a href="../about.html">About</a>
+      </li>
+      <li class="dropdown">
+        <a href="devops-index.html" class="dropbtn"
+          >DevOps Presentations &#9662;</a
+        >
+        <div class="dropdown-content">
+          <a href="soto-tech-value-stream.html">Tech-Value-Stream</a>
+          <a href="soto-two-pizza-rule.html">The Two-Pizza Team Rule</a>
+          <a href="soto-testing.html">Testing</a>
+          <a href="upcoming-presentation.html">Upcoming Presentation</a>
+          <!-- add more links -->
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <body>
+    <header-component></header-component>
+    <div class="assign-container">
+      <h1 class="app-header">Testing</h1>
+      <div class="assign-content-devops">
+        <div id="projects-container-devops">
+          <div class="devops-videocarddiv">
+            <div class="card-content">
+              <div>
+                <div class="devops-videodiv">
+                  <video
+                    controls
+                    reload="none"
+                    style="width: 100%; height: auto; max-width: 900px"
+                  >
+                    <source
+                      src="../devops-presentations/soto-testing.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer-component></footer-component>
+  </body>
+</html>
