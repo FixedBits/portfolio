@@ -34,7 +34,7 @@ class Header extends HTMLElement {
                     <div class="dropdown-content">
                     <a href="web-430/soto-tech-value-stream.html">Tech-Value-Stream</a>
                     <a href="web-430/soto-two-pizza-rule.html">The Two-Pizza Team Rule</a>
-                    <a href="web-430/soto-two-pizza-rule.html">Testing</a>
+                    <a href="web-430/soto-testing.html">Testing</a>
                     <a href="web-430/upcoming-presentation.html">Upcoming Presentation</a>
                     </div>
                     </li>
