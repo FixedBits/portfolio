@@ -1,10 +1,10 @@
 class Header extends HTMLElement {
-  constructor() {
-    super();
-  }
+    constructor() {
+        super();
+    }
 
-  connectedCallback() {
-    this.innerHTML = `
+    connectedCallback() {
+        this.innerHTML = `
             <div id="banner">
                 <h1>Victor's Portfolio</h1>
             </div>
@@ -35,13 +35,14 @@ class Header extends HTMLElement {
                     <a href="web-430/soto-tech-value-stream.html">Tech-Value-Stream</a>
                     <a href="web-430/soto-two-pizza-rule.html">The Two-Pizza Team Rule</a>
                     <a href="web-430/soto-testing.html">Testing</a>
+                    <a href="web-430/soto-continuous-integration.html">Continuous Integration</a>
                     <a href="web-430/upcoming-presentation.html">Upcoming Presentation</a>
                     </div>
                     </li>
                 </ul>
             </div>
         `;
-  }
+    }
 }
 
 customElements.define("header-component", Header);
