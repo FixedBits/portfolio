@@ -36,6 +36,7 @@ class Header extends HTMLElement {
                     <a href="web-430/soto-two-pizza-rule.html">The Two-Pizza Team Rule</a>
                     <a href="web-430/soto-testing.html">Testing</a>
                     <a href="web-430/soto-continuous-integration.html">Continuous Integration</a>
+                    <a href="web-430/soto-pager-rotation.html">Pager Rotation</a>
                     <a href="web-430/upcoming-presentation.html">Upcoming Presentation</a>
                     </div>
                     </li>
