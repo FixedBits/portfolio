@@ -109,11 +109,13 @@ body {
     margin: 2% auto 0%;
 
 }
+
 .assign-content-resume {
     width: 48%;
     margin: 2% auto 0%;
 
 }
+
 .assign-content-aboutme {
     width: 60%;
     margin: 2% auto 0%;
@@ -127,6 +129,7 @@ body {
     color: inherit;
     background-color: inherit;
 }
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(50, 50, 50, 0.3);
     transition: 0.3s;
@@ -208,4 +211,3 @@ body {
 h1 {
     font-size: 40px;
 }
-
