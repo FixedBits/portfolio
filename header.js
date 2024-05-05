@@ -38,6 +38,7 @@ class Header extends HTMLElement {
                     <a href="web-430/soto-continuous-integration.html">Continuous Integration</a>
                     <a href="web-430/soto-pager-rotation.html">Pager Rotation</a>
                     <a href="web-430/soto-ca-processes.html">Dangers of Change Approval Processes</a>
+                    <a href="web-430/soto-it-vs-business.html">Technology vs. Business</a>
                     <a href="web-430/upcoming-presentation.html">Upcoming Presentation</a>
                     </div>
                     </li>
