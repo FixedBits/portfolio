@@ -40,6 +40,7 @@ class Header extends HTMLElement {
                     <a href="web-430/soto-ca-processes.html">Dangers of Change Approval Processes</a>
                     <a href="web-430/soto-it-vs-business.html">Technology vs. Business</a>
                     <a href="web-430/soto-source-control-security.html">Source Control Security</a>
+                    <a href="web-430/soto-change-management.html">Change Management</a>
                     <a href="web-430/upcoming-presentation.html">Upcoming Presentation</a>
                     </div>
                     </li>
