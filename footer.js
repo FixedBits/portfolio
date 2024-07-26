@@ -7,7 +7,7 @@ class Footer extends HTMLElement {
     this.innerHTML = `
             <div id="footer">
                 <p>
-                    Copyright © 2023 <a href="https://www.bellevue.edu/">Bellevue University</a> | 
+                    Copyright © 2024 <a href="https://www.bellevue.edu/">Bellevue University</a> | 
                     <a href="https://github.com/FixedBits">GitHub</a> | 
                     <a href="https://www.bellevue.edu/degrees/bachelor/web-development-bs/">Web Development Degree</a> | 
                     <a href="https://www.youtube.com/@bellevueuniversity">YouTube Channel</a> | 
